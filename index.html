@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Prosper Oficial - Inicio </title>
+    <link rel="shortcut icon" href="canva/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="canva/logo.png" alt="logo">
+        </div>
+        <nav>
+            <a href="#sobre_nos" class="links_pag">SOBRE NOS</a>
+            <a href="#projetos" class="links_pag">PROJETOS</a>
+            <a href="#contatos" class="links_pag">CONTATO</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="inicio section">
+            <div class="left">
+                <div class="text">
+                    <h1>PROJETO <BR> <span class="title">PROSPER</span> </h1>
+                    <p>Bem vindo ao nosso site! Somos o Projeto Prosper, e este será um local para que vocês nos conheçam. Aqui vocês terão um contato maior conosco através de nossas redes socias, também descobrirão mais sobre nossa história e novos projetos que serão desenvolvidos por nós. 
+                        <br> </p>
+                    <a href="#play_game"><button> JOGUE NOSSO GAME AGORA </button></a>
+                </div>
+            </div>
+            <div class="right">
+                <img src="canva/anim_recicle.png" alt="start_apr" class="img_animation">
+            </div>
+        </section>
+        <section class="sobre_nos section" id="sobre_nos">
+            <div class="left">
+                <img src="canva/garrafas_fundo.jpg" alt="fundo_reciclagem">
+            </div>
+            <div class="right">
+                <div class="text">
+                    <h1>
+                        SOBRE NOSSA HISTORIA
+                    </h1>
+                    <p>Nossa história começa no período do fundamental, onde nos conhecíamos e éramos amigos a muito tempo.
+                        Durante todo este período de nossas vidas, sempre fomos estudiosos e gostávamos de discutir sobre assuntos diversos, como formas de impedir o aquecimento global, maneiras de melhorarmos o meio ambiente em conjunto com a ciência, impossibilitar maiores emissões de CO2 e principalmente sobre melhorar o descarte do lixo plástico no meio ambiente. </p>
+                    <p>
+                         Alguns dos nossos colegas tinham um plano de criar uma iniciativa contra esse problema em nosso mundo, mas não fazíamos ideia de como criar um projeto sustentável ao ponto de impactar o governo e a sociedade ao ponto de muitos colaborarem com nossas ideias, alcançando uma boa parcela das pessoas.
+                        Em procura de ideias para a criação deste projeto, vimos diversas formas de intervir no descarte incorreto do lixo plástico, e encontramos uma forma de melhorar este problema com o contato direto com a comunidade, possibilitando a venda e o próprio benefício, sendo este as hortas verticais.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section game">
+            <h1><span class="title">PROSPER</span> </h1>
+            <div class="game_start">
+
+                <iframe  src="https://wordwall.net/pt/embed/5e2b787905fc4dc8a142437519387d34?themeId=27&templateId=2&fontStackId=0" frameborder="0" allowfullscreen></iframe>
+                <img src="canva/fundo_game.jpg" id="play_game" alt="fundo_play" onclick="iniciaGame()">
+            </div>
+        </section>
+        <section class="projetos section" id="projetos">
+            <h1>NOSSOS PROJETOS</h1>
+            <div class="cards_proj">
+                <div class="card">
+                    <img src="canva/garrafas.png" alt="garrafas">
+                </div>
+                <div class="card">
+                    <img src="canva/tartarugas.png" alt="tartarugas">
+                </div>
+                <div class="card">
+                    <img src="canva/horta_teto.jpg" alt="teto">
+                </div>
+            </div>
+        </section>
+        <section class="contato section" id="contatos"></section>
+   </div>
+   <script>
+       var playGame = document.querySelector("#play_game");
+
+       playGame.addEventListener('click', ()=> {
+           playGame.style.display = 'none';
+       });
+
+
+   </script>
+</body>
+
+</html>
